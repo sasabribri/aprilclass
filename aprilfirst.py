@@ -9,12 +9,13 @@ idade = int(input("digite a sua idade: "))
 
 if idade < 12:
     print("Você é uma criança.")
-elif 12 <= idade <= 17:
+elif idade >= 12 and idade <= 17:
     print("Você é um adolescente.")
-elif 18 <= idade <= 59:
+elif idade >= 18 and idade <= 59:
     print("Você é um adulto.")
 else:
     print("Você é um idoso.")
+    
     
 
 
